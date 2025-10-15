@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\work\dolphin\target\debug\deps\liburl-2e146a0f5203a76b.rmeta: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\lib.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\encoding.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\host.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\origin.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\path_segments.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\parser.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\slicing.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\form_urlencoded.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\quirks.rs
+
+C:\Users\Admin\Desktop\work\dolphin\target\debug\deps\url-2e146a0f5203a76b.d: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\lib.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\encoding.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\host.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\origin.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\path_segments.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\parser.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\slicing.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\form_urlencoded.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\quirks.rs
+
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\lib.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\encoding.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\host.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\origin.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\path_segments.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\parser.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\slicing.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\form_urlencoded.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\url-1.7.2\src\quirks.rs:

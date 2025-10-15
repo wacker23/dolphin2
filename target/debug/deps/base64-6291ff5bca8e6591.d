@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\work\dolphin\target\debug\deps\libbase64-6291ff5bca8e6591.rmeta: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\lib.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\chunked_encoder.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\display.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\tables.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\write\mod.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\write\encoder.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\encode.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\decode.rs
+
+C:\Users\Admin\Desktop\work\dolphin\target\debug\deps\base64-6291ff5bca8e6591.d: C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\lib.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\chunked_encoder.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\display.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\tables.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\write\mod.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\write\encoder.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\encode.rs C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\decode.rs
+
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\lib.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\chunked_encoder.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\display.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\tables.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\write\mod.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\write\encoder.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\encode.rs:
+C:\Users\Admin\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\base64-0.10.1\src\decode.rs:

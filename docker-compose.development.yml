@@ -1,0 +1,33 @@
+services:
+  dolphin:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+      
+    container_name: dolphin-dev
+    image: dolphin-dev
+    environment:
+      - MQTT_HOST=mqtt.stl1.co.kr:1883
+      - MQTT_USERNAME=rest-api
+      - MQTT_PASSWORD=Q@lbkuIEw5^sJHoSP1g6
+      - NCP_SMS_ID=ncp:sms:kr:318808922519:total-management
+      - NCP_ACCESS_KEY=EBDC5FB09112098FAE1F
+      - NCP_SECRET_KEY=4A71F8753C12B6143ED633DEE30F0439C6ADAA51
+      - BIZ_SMS_ACCOUNT_ID=stl_sms_api
+      - BIZ_SMS_SECRET_KEY=P6aXvy@@8Yf4xRy
+      - BIZ_SMS_FROM=0415889815
+      - ALERT_NUMBER=
+      - MARIADB_HOST=mariadb-local
+      - MARIADB_USER=root
+      - MARIADB_PASSWORD=mariadb
+      - MARIADB_DATABASE=mqtt_db
+      - TZ=Asia/Seoul
+      - EXCEPT_DEVICES=AGL12
+    volumes:
+      - ./firebase.json:/app/firebase.json:ro 
+    networks:
+      - dolphin
+
+networks:
+  dolphin:
+    driver: bridge

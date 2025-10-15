@@ -1,0 +1,86 @@
+debug:Running the bundled build for Paho C
+cargo:rerun-if-changed=build.rs
+CMAKE_TOOLCHAIN_FILE_x86_64-unknown-linux-gnu = None
+CMAKE_TOOLCHAIN_FILE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-unknown-linux-gnu = None
+CMAKE_GENERATOR_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+cargo:warning=Compiler family detection failed due to error: ToolNotFound: failed to find tool "c++": No such file or directory (os error 2)
+CMAKE_PREFIX_PATH_x86_64-unknown-linux-gnu = None
+CMAKE_PREFIX_PATH_x86_64_unknown_linux_gnu = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-unknown-linux-gnu = None
+CMAKE_x86_64_unknown_linux_gnu = None
+HOST_CMAKE = None
+CMAKE = None
+running: cd "/mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/build" && CMAKE_PREFIX_PATH="" LC_ALL="C" "cmake" "/home/stladmin/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/paho-mqtt-sys-0.9.0/paho.mqtt.c/" "-DPAHO_BUILD_SHARED=off" "-DPAHO_BUILD_STATIC=on" "-DPAHO_ENABLE_TESTING=off" "-DPAHO_HIGH_PERFORMANCE=on" "-DPAHO_WITH_SSL=on" "-DOPENSSL_ROOT_DIR=/usr" "-DCMAKE_INSTALL_PREFIX=/mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out" "-DCMAKE_C_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_C_COMPILER=/usr/bin/cc" "-DCMAKE_CXX_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_CXX_COMPILER=c++" "-DCMAKE_ASM_FLAGS= -ffunction-sections -fdata-sections -fPIC -m64" "-DCMAKE_ASM_COMPILER=/usr/bin/cc" "-DCMAKE_BUILD_TYPE=Release"
+-- CMake version: 3.28.3
+-- CMake system name: Linux
+-- Timestamp is 2025-05-07T10:10:20Z
+-- Configuring done (0.4s)
+-- Generating done (1.3s)
+-- Build files have been written to: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/build
+running: cd "/mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/build" && LC_ALL="C" MAKEFLAGS="-j --jobserver-fds=8,9 --jobserver-auth=8,9" "cmake" "--build" "/mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/build" "--target" "install" "--config" "Release"
+[ 39%] Built target common_obj_static
+[ 71%] Building C object src/CMakeFiles/paho-mqtt3c-static.dir/MQTTClient.c.o
+[ 80%] Built target common_ssl_obj_static
+[ 82%] Building C object src/CMakeFiles/paho-mqtt3a-static.dir/MQTTAsync.c.o
+[ 83%] Building C object src/CMakeFiles/paho-mqtt3cs-static.dir/MQTTClient.c.o
+[ 85%] Building C object src/CMakeFiles/paho-mqtt3as-static.dir/MQTTAsync.c.o
+[ 87%] Linking C static library libpaho-mqtt3a.a
+[ 89%] Linking C static library libpaho-mqtt3c.a
+[ 91%] Built target paho-mqtt3a-static
+[ 92%] Linking C static library libpaho-mqtt3as.a
+[ 92%] Built target paho-mqtt3c-static
+[ 94%] Linking C static library libpaho-mqtt3cs.a
+[ 98%] Built target paho-mqtt3as-static
+[100%] Built target paho-mqtt3cs-static
+Install the project...
+-- Install configuration: "Release"
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/MQTTAsync_publish.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/MQTTAsync_publish_time.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/MQTTAsync_subscribe.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/MQTTClient_publish.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/MQTTClient_publish_async.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/MQTTClient_subscribe.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/paho_c_pub.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/paho_c_sub.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/paho_cs_pub.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/paho_cs_sub.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/samples/pubsub_opts.c
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/CONTRIBUTING.md
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/epl-v20
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/edl-v10
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/README.md
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/share/doc/Eclipse Paho C/notice.html
+-- Installing: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/lib/libpaho-mqtt3c.a
+-- Installing: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/lib/libpaho-mqtt3a.a
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/include/MQTTAsync.h
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/include/MQTTClient.h
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/include/MQTTClientPersistence.h
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/include/MQTTProperties.h
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/include/MQTTReasonCodes.h
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/include/MQTTSubscribeOpts.h
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/include/MQTTExportDeclarations.h
+-- Installing: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/lib/libpaho-mqtt3cs.a
+-- Installing: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/lib/libpaho-mqtt3as.a
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/lib/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfig.cmake
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/lib/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfig-release.cmake
+-- Up-to-date: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/lib/cmake/eclipse-paho-mqtt-c/eclipse-paho-mqtt-cConfigVersion.cmake
+cargo:root=/mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out
+debug:CMake output dir: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out
+debug:link Using SSL library
+debug:Using Paho C library at: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/lib [paho-mqtt3as]
+debug:Using Paho C headers at: /mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/include
+debug:Using existing Paho C binding for target: x86_64-unknown-linux-gnu
+debug:Target Pointer Width: 64
+debug:Using bindings from: bindings/bindings_paho_mqtt_c_1.3.13-x86_64-unknown-linux-gnu.rs
+cargo:rustc-link-search=/usr/lib
+cargo:rustc-link-lib=ssl
+cargo:rustc-link-lib=crypto
+cargo:rustc-link-search=native=/mnt/c/Users/Admin/Desktop/work/dolphin/target/release/build/paho-mqtt-sys-fde627f2968a4523/out/lib
+cargo:rustc-link-lib=static=paho-mqtt3as
