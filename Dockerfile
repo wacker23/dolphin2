@@ -13,9 +13,8 @@ RUN apt-get update && \
     apt-get install -y libmariadb-dev libssl-dev build-essential cmake git
 
 #RUN git clone https://sxxphia:${GITLAB_TOKEN}@git.stl1.co.kr/stl/bizppurio-rs.git /usr/src/bizppurio-rs
-RUN git config --global http.sslVerify false && \
-    git clone https://sxxphia:${GITLAB_TOKEN}@git.stl1.co.kr/stl/bizppurio-rs.git /usr/src/bizppurio-rs
-
+RUN git config --global https.sslVerify false && \
+    git clone https://github.com/wacker23/bizppurio-rs.git /usr/src/bizppurio-rs
 
 COPY . .
 
