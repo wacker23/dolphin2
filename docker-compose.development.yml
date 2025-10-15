@@ -18,9 +18,9 @@ services:
       - BIZ_SMS_SECRET_KEY=P6aXvy@@8Yf4xRy
       - BIZ_SMS_FROM=0415889815
       - ALERT_NUMBER=
-      - MARIADB_HOST=mariadb-local
-      - MARIADB_USER=root
-      - MARIADB_PASSWORD=mariadb
+      - MARIADB_HOST=mariadb
+      - MARIADB_USER=dolphin
+      - MARIADB_PASSWORD=210cbbc900c5e6
       - MARIADB_DATABASE=mqtt_db
       - TZ=Asia/Seoul
       - EXCEPT_DEVICES=AGL12
@@ -32,3 +32,4 @@ services:
 networks:
   dolphin:
     driver: bridge
+
